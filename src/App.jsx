@@ -1,10 +1,10 @@
-import ToDoList from './ToDoList'
+import Todo from "./components/Todo"
 
 function App() {
   return (
-    <>
-    <ToDoList />
-    </>
+    <div className="App">
+      <Todo />
+    </div>
   )
 }
 
