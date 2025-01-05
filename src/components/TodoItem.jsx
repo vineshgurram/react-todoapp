@@ -4,7 +4,7 @@ export default function TodoItem({ list,todos,setToDos }) {
     }
     return (
         <div className="todo-item-wrapper" key={list}>
-            <h4 className="heading">{list}</h4>
+            <h4 className="heading">{list.name}</h4>
             <button onClick={()=>handleOnDelete(list)}>Delete</button>
         </div>
     )
