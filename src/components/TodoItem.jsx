@@ -1,7 +1,11 @@
-export default function TodoItem({ list }) {
+export default function TodoItem({ list,todos,setToDos }) {
+    function handleOnDelete(list){
+        setToDos(todos.filter((todo)=>todo !== list));
+    }
     return (
         <div className="todo-item-wrapper" key={list}>
-            {list}
+            <h4 className="heading">{list}</h4>
+            <button onClick={()=>handleOnDelete(list)}>Delete</button>
         </div>
     )
 }
