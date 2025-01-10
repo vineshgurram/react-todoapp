@@ -19,9 +19,13 @@
 }
 
 
-.header {
+.header h1 {
     /* background-color: var(--yellow); */
-    padding: 20px 10px;
+    padding: 20px 0;
+}
+
+.text-center{
+    text-align: center;
 }
 
 .header .main-heading {
@@ -48,6 +52,17 @@
     width: 90%;
     max-width: 500px;
     margin: 0 auto;
+}
+
+header .heading{
+    font-size: 22px;
+    line-height: 2;
+    padding-bottom: 5px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: var(--green);
+    border-bottom: 2px solid var(--green)
 }
 
 .form {
@@ -105,6 +120,10 @@
     color: var(--black);
     font-weight: 500;
     letter-spacing: 2px;
+}
+
+.section .todo-list-wrapper .todo-item-wrapper .heading.completed{
+    text-decoration: line-through;
 }
 
 .section .todo-list-wrapper .todo-item-wrapper button {
