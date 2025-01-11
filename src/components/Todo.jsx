@@ -15,7 +15,6 @@ export default function Todo() {
             <section className="section">
                 <div className="container">
                     <Form todos={todos} setToDos={setToDos} />
-                    <h2 className="sub-heading">Your Tasks</h2>
                     <TodoList todos={todos} setToDos={setToDos} />
                 </div>
             </section>

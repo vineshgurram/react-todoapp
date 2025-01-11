@@ -48,6 +48,11 @@
     border-bottom: 2px solid var(--yellow-dark)
 }
 
+.sub-heading.red{
+    color: var(--red);
+    border:1px solid var(--red)
+}
+
 .container {
     width: 90%;
     max-width: 500px;
